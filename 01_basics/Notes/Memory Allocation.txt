@@ -1,0 +1,2 @@
+1) Stack Memory (Primitive Data Type) - we get a copy declare a variable we get a copy of that
+2) Heap Memory (Non-Primitve) - when we declare a variable we get a reference in return
