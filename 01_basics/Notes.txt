@@ -1,0 +1,104 @@
+Primitive and non primitive data types in javascript
+
+Variables hold values, and every value has a specific data types that defines the kind of information it holds.
+
+The data types are broadly categorized into two groups: Primitive and Non-Primitve Data types
+
+1) Primitive Data Types
+Primitve Data types are the built-in data types provided by Java Script. They represents single values and are not mutable. Javascript supports the following primitive data type: String, Number, Boolean, null, Symbol, Undefined, BigInt
+
+1) Number: Number stores decimal as well as values without decimals
+2) String: Stores a sequence of character surrounded by single or double quoutes
+3) Undefined: this means that you have not yet defined a value for the Variables
+4) Boolean: Stores value in two state either true or false
+5) Null: this is empty
+6) BigInt: Stores the number greater than 2^53-1 which help in performing operation on large numbers.
+7) Symbol: used to create objects which will always be unique. These objects can be created using Symbol Constructor.
+
+
+2) Non-Primitive Data Types
+Non-primitive data types, also known as reference types, are objects and derived data types.They can store collections of values or more complex entities. The two key non-primitive data types in JavaScript are:
+
+Below is a list of Non-primitive data types.
+
+2.1 Object:
+An object in Javascript is an entity having properties and methods. Everything is an object in javascript.
+
+How to create an object in javascript:
+
+Using Constructor Function to define an object:
+// Create an empty generic object
+let obj = new Object();
+
+// Create a user defined object
+let mycar = new Car();
+Using Literal notations to define an object:
+// An empty object
+let square = {};
+
+// Here a and b are keys and
+// 20 and 30 are values
+let circle = {a: 20, b: 30};
+Example: Below is an example.
+
+
+
+
+// Creating object with the name person
+    let person = {
+        firstName: "Luiza",
+        lastName: "Shaikh",
+    };
+
+    // Print the value of object on console
+    console.log(person.firstName 
+        + "  " + person.lastName);
+
+Output
+Luiza  Shaikh
+2.2 Array:
+With the help of an array, we can store more than one element under a single name.
+
+Ways to declare a single-dimensional array:
+
+// Call it with no arguments
+let a = new Array();
+
+// Call it with single numeric argument
+let b = new Array(10);
+
+// Explicitly specify two or
+// more array elements
+let d = new Array(1, 2, 3, "Hello");
+Example: Below is an example.
+
+
+
+
+    let a = new Array();
+    let b = new Array(10);
+    let d = new Array(1, 2, 3, "Hello");
+    console.log("value of a=" + a);
+    console.log("value of b" + b);
+    console.log("value of d=" + d);
+
+Output
+value of a=
+value of b,,,,,,,,,
+value of d=1,2,3,Hello
+Note: JavaScript does not support two-dimensional arrays. but we can do this by creating an array of an array.
+
+Difference Between Primitive vs Non-Primitive
+Primitive	
+	Primitive Data types are predefined. 	
+	Primitive Data types will have certain values.	
+	Size depends on the type of data structure.	
+	Examples are numbers and strings.
+	It can start with a lowercase.
+
+Non-Primitive
+	Non-Primitive data types are created by the programmer
+	Non-Primitive data types can be NULL.
+	Size is not fixed
+	Examples are Array and Linked List.
+	It can start with uppercase.
