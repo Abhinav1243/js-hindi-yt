@@ -45,12 +45,24 @@ user = [
 
 ]
 
-console.log(user[1].username)
+// console.log(user[1].username)
 
-console.log(tinderObject)
+// console.log(tinderObject)
 
-console.log(Object.keys(tinderObject))
-console.log(Object.values(tinderObject))
-console.log(Object.entries(tinderObject))
+// console.log(Object.keys(tinderObject))
+// console.log(Object.values(tinderObject))
+// console.log(Object.entries(tinderObject))
 
-console.log(tinderObject.hasOwnProperty('id'))
+// console.log(tinderObject.hasOwnProperty('id'))
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "abc_instructor"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: Instructor} = course
+
+console.log(Instructor)
