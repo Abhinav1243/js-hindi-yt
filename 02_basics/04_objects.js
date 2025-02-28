@@ -27,4 +27,30 @@ const obj2 = {3: "c", 4: "d"}
 // console.log(obj3)
 
 const obj3 = {...obj1, ...obj2}
-console.log(obj3)
+// console.log(obj3)
+
+user = [
+    {
+        username: "abc"
+    },
+    {
+        username: "xyz"
+    },
+    {
+        username: "qwe"
+    },
+    {
+        username: "123"
+    }
+
+]
+
+console.log(user[1].username)
+
+console.log(tinderObject)
+
+console.log(Object.keys(tinderObject))
+console.log(Object.values(tinderObject))
+console.log(Object.entries(tinderObject))
+
+console.log(tinderObject.hasOwnProperty('id'))
