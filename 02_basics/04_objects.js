@@ -63,6 +63,27 @@ const course = {
 
 // course.courseInstructor
 
-const {courseInstructor: Instructor} = course
+const site = {
+    name: "Sagar Enclave",
+    address: "Bhopal",
+    houseType: "Flats",
+    courseInstructor: "xyz"
+}
+
+// Destructuring Object
+const {courseInstructor: Instructor} = course // this will fetch the detail of the value in the course 
 
 console.log(Instructor)
+
+// API
+// {
+//     "name": "abc",
+//     "coursename": "JavaScript",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
